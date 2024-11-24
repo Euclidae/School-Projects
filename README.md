@@ -8,6 +8,7 @@ A delightful mishmash of projects in:
 - Python (for when readability counts)
 - C (for when we're feeling nostalgic about memory management)
 - C++ (because why not have the best/worst of both worlds?)
+- Not Java (... I'll see that in third year or something)
 
 ## 🤔 Project Highlights
 
