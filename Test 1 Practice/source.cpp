@@ -39,6 +39,14 @@ int main() {
     viewCidDataByYear("test_cid_data.txt", "test_disease_info.txt", "California", "Male", 2001);
     //System pause is not cross platform. As such, I prefer std::cin.get() [N.B I often code on linux]
     std::cin.get();
+    //but if you insist on using system pause, you and want your ode to be cross platform, you can check OS
+    // then set a string to what you want the command to be. Go to top and paste this
+    /*#ifdef _WIN32
+        #define command "pause"
+        #else
+        #define command "read -n1 -r"
+        #endif*/
+    //Here, in main, type system(command);
     return 0;
 }
 
