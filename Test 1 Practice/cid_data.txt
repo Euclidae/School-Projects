@@ -1,0 +1,13 @@
+Disease_code	County		Year	Sex	Count	Population
+8		California	2001	Total	571	34514777
+8		California	2001	Female	176	17340743
+8		California	2001	Male	365	17174034
+1		Alameda		2001	Total	16	1466038
+1		Alameda		2001	Female	7	746829
+1		Alameda		2001	Male	9	719209
+5		Alpine		2001	Total	0	1237
+5		Alpine		2001	Female	0	589
+5		Alpine		2001	Male	0	648
+3		Amador		2001	Total	0	35784
+3		Amador		2001	Female	0	16101
+3		Amador		2001	Male	0	19683

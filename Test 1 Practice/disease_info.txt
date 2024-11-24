@@ -1,0 +1,15 @@
+Disease_code	Disease
+1		Amebiasis
+2		Anaplasmosis_and_Ehrlichiosis
+3		Babesiosis
+4		Botulism_Foodborne
+5		Botulism_Other
+6		Botulism_Wound
+7		Campylobacteriosis
+8		Cholera
+9		Brucellosis
+10		Chlamydia
+11		Ciguatera_Fish_Poisoning
+12		Coccidioidomycosis
+13	Dengue
+14	Cryptosporidiosis
