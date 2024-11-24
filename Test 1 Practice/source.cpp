@@ -44,7 +44,7 @@ int main() {
     /*#ifdef _WIN32
         #define command "pause"
         #else
-        #define command "read -n1 -r"
+        #define command "bash -c 'read -n1 -r'"
         #endif*/
     //Here, in main, type system(command);
     return 0;
