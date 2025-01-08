@@ -94,7 +94,7 @@ void viewCidDataByYear(std::string disease_info, std::string disease_data, std::
         if(di_data.County == county && di_data.Sex == sex && di_data.Year == year){
             //if true, we look a the other file. Same thing.
             //clips header off again but for other file.
-            std::getline(disease_info_stream,buffer)
+            std::getline(disease_info_stream,buffer);
 
             while(std::getline(disease_info_stream, buffer)){
                 std::istringstream d_i_stream(buffer);
