@@ -58,9 +58,7 @@ void viewCidDataByYear(std::string disease_info, std::string disease_data, std::
     //design choice. only one container string needed cuz everything will be thrown into Struct's objects [convinient]
     std::string buffer;
 
-    //trims the head off the files... though, it might be better to set the fstream's pointer to 1, which would skip
-    //the headers anyway
-    std::getline(disease_info_stream,buffer);
+    //trims the head off the file
     std::getline(disease_data_stream,buffer);
 
     //Create objects
@@ -95,6 +93,9 @@ void viewCidDataByYear(std::string disease_info, std::string disease_data, std::
         //As specified by instructions. All three of the inputs have to be true in order to progress
         if(di_data.County == county && di_data.Sex == sex && di_data.Year == year){
             //if true, we look a the other file. Same thing.
+            //clips header off again but for other file.
+            std::getline(disease_info_stream,buffer)
+
             while(std::getline(disease_info_stream, buffer)){
                 std::istringstream d_i_stream(buffer);
                 d_i_stream >> di_info;
@@ -116,7 +117,7 @@ void viewCidDataByYear(std::string disease_info, std::string disease_data, std::
             //resets the disease info stream pointer to just after the columns in the text file
             //.clear() removes all error flags such as the file in question being = EOF
             disease_info_stream.clear();
-            //takes pointer to the top
+            //takes pointer to the top. Should be 0 but makes no difference to be honest.  
             disease_info_stream.seekg(1);
         }
     }
