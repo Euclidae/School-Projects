@@ -40,7 +40,7 @@ int main(){
 
         item_list[counter] = item;
         counter++;
-        full_stock_value += item.price;
+        full_stock_value += (item.price*item.quantity);
     }
 
     output_stream << "Most Expensive Item ; " << tracker.ID << " " << tracker.name << " " << tracker.category << " " <<tracker.price << '\n';
