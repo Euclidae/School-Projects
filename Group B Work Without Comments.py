@@ -1,11 +1,4 @@
-#Mr. Chris'Group B.
-#BSc. IT
-#Simelane N. Vezokuhle - 202301485
-#Shoulder N. Sharoon - 202304483
-#Mazibuko Thabiso 202302349
-#Fakudze Mazwamahle 202302260
-#Khumalo Vuyo 202302214
-#Gwebu N. Beyond 202304934
+
 
 
 from turtle import *
@@ -125,5 +118,6 @@ factorial(10)
 fibonacci()
 multiplication_table(8)
 matrix_multiplication(A,B)
+
 
 
